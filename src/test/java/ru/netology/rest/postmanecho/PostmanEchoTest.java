@@ -6,7 +6,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 public class PostmanEchoTest {
-/*
+
     @Test
     void shouldReturnBody() {
         // Given - When - Then
@@ -24,6 +24,4 @@ public class PostmanEchoTest {
                 .body("data", equalTo("some value"))
         ;
     }
-
-*/
 }
